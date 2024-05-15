@@ -172,15 +172,15 @@ img.emoji {
 .btn-content {
   display: flex;
   align-items: center;
-  padding: 5px 30px;
+  padding: 1px 10px;
   text-decoration: none;
   font-family: 'Poppins', sans-serif;
-  font-weight: 600;
-  font-size: 30px;
+  font-weight: 700;
+  font-size: 20px;
   color: var(--color-text);
   background: var(--color-background);
   transition: 1s;
-  border-radius: 100px;
+  border-radius: 10px;
   box-shadow: 0 0 0.2em 0 var(--color-background);
 }
 
@@ -205,7 +205,7 @@ img.emoji {
 }
 
 .icon-arrow {
-  width: 20px;
+  width: 18px;
   margin-left: 15px;
   position: relative;
   top: 6%;

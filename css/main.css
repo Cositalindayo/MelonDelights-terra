@@ -25,6 +25,7 @@ body {
     font-size: 15px;
 }
 
+
 body.admin-bar.single {
     top: 32px;
 }
@@ -775,7 +776,7 @@ body.media-body .vjs-picture-in-picture-control {
 
 .post-desc p {
     display: none;
-    font-size: 10px;
+    font-size: 12px;
     margin: 0 0 10px;
 }
 
@@ -924,7 +925,7 @@ a.check-product {
 
 .tags-list {
     margin-top: 10px;
-    padding-left: 50px;
+    padding-left: 40px;
 
 }
 
@@ -935,10 +936,10 @@ a.check-product {
     border-width: 1px;
     border-style: solid;
     border-color: #fff;
-    padding: 3px 5px;
+    padding: 2px 5px 2px 5px;
     margin-right: 5px;
     margin-bottom: 5px;
-    font-size: 13px;
+    font-size: 18px;
     -webkit-transition: all 0.2s ease;
     -moz-transition: all 0.2s ease;
     -ms-transition: all 0.2s ease;

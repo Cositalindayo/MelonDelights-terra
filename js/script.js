@@ -2,7 +2,7 @@
 const videos = [
     "https://s3.amazonaws.com/webflow-prod-assets/64597a8e3c345998aa7cd3c4/65e977d5e44da13127048971_08(2).mp4",
     "https://s3.amazonaws.com/webflow-prod-assets/64597a8e3c345998aa7cd3c4/65e977d13f8854293a375871_08(1).mp4",
-    "https://s3.amazonaws.com/webflow-prod-assets/64597a8e3c345998aa7cd3c4/65e977cccafd905222beda00_07(1).mp4",    
+    "https://s3.amazonaws.com/webflow-prod-assets/64597a8e3c345998aa7cd3c4/65e977cccafd905222beda00_07(1).mp4",
     "https://s3.amazonaws.com/webflow-prod-assets/64597a8e3c345998aa7cd3c4/65e96dfa450c282ca832efa4_video_2024-03-05_16-01-32.mp4",
     "https://s3.amazonaws.com/webflow-prod-assets/64597a8e3c345998aa7cd3c4/65e96dedbeb291f8e2e1c12c_IMG_5034.MP4",
     "https://s3.amazonaws.com/webflow-prod-assets/64597a8e3c345998aa7cd3c4/65e96df36ce317053df1d9d6_video_2024-03-04_21-22-03.mp4",
@@ -37,6 +37,40 @@ const videos = [
     "https://s3.amazonaws.com/webflow-prod-assets/65237425a4ef7a6f93c6b395/65fd456e5615754244124e2f_marzo%20(9).mp4",
     "https://s3.amazonaws.com/webflow-prod-assets/65237425a4ef7a6f93c6b395/65fd45688bbf716559a8e9e3_marzo%20(8).mp4",
     "https://s3.amazonaws.com/webflow-prod-assets/65237425a4ef7a6f93c6b395/65fd4564ed609b77a885be50_marzo%20(7).mp4",
+    "https://s3.amazonaws.com/webflow-prod-assets/65237425a4ef7a6f93c6b395/65fd45850d7b86cc123a929f_marzo%20(14).mp4",
+    "https://s3.amazonaws.com/webflow-prod-assets/65237425a4ef7a6f93c6b395/65fd48b7a25c5fa665444f51_marzo%20(15).mp4",
+    "https://s3.amazonaws.com/webflow-prod-assets/65237425a4ef7a6f93c6b395/65fd48c93dd9b46e47e6253f_marzo%20(16).mp4",
+    "https://s3.amazonaws.com/webflow-prod-assets/65237425a4ef7a6f93c6b395/65fd48cfb35c99ad9860a1d7_marzo%20(17).mp4",
+    "https://s3.amazonaws.com/webflow-prod-assets/65237425a4ef7a6f93c6b395/65fd48d76970bbb287bfc980_marzo%20(18).mp4",
+    "https://s3.amazonaws.com/webflow-prod-assets/65237425a4ef7a6f93c6b395/65fd48eac6330d401e6cf879_marzo%20(19).mp4",
+    "https://s3.amazonaws.com/webflow-prod-assets/65237425a4ef7a6f93c6b395/65fd48f88bbf716559ac6028_marzo%20(21).mp4",
+    "https://s3.amazonaws.com/webflow-prod-assets/65237425a4ef7a6f93c6b395/65fd49074012ae2e95ff0702_marzo%20(22).mp4",
+    "https://s3.amazonaws.com/webflow-prod-assets/65237425a4ef7a6f93c6b395/65fd4c404012ae2e9501ef51_marzo%20(23).mp4",
+    "https://s3.amazonaws.com/webflow-prod-assets/65237425a4ef7a6f93c6b395/65fd4c491eaf5ffad23ef893_marzo%20(24).mp4",
+    "https://s3.amazonaws.com/webflow-prod-assets/65237425a4ef7a6f93c6b395/65fd4c57088caa74fe42764d_marzo%20(25).mp4",
+    "https://s3.amazonaws.com/webflow-prod-assets/65237425a4ef7a6f93c6b395/65fd4c5be07c895f65a021b2_marzo%20(26).mp4",
+    "https://s3.amazonaws.com/webflow-prod-assets/65237425a4ef7a6f93c6b395/65fd4c64ea21ff597a0ce384_marzo%20(27).mp4",
+    "https://s3.amazonaws.com/webflow-prod-assets/65237425a4ef7a6f93c6b395/65fd4c6bdec67f3a5fdf5547_marzo%20(28).mp4",
+    "https://s3.amazonaws.com/webflow-prod-assets/65237425a4ef7a6f93c6b395/65fd4c730d5ebb97ff63b534_marzo%20(29).mp4",
+    "https://s3.amazonaws.com/webflow-prod-assets/65237425a4ef7a6f93c6b395/65fd4c7fc20d9cf84efa37c6_marzo%20(30).mp4",
+    "https://s3.amazonaws.com/webflow-prod-assets/65237425a4ef7a6f93c6b395/65fd4f9a1eaf5ffad2420938_marzo%20(31).mp4",
+    "https://s3.amazonaws.com/webflow-prod-assets/65237425a4ef7a6f93c6b395/65fd4f9fe07c895f65a3824f_marzo%20(32).mp4",
+    "https://s3.amazonaws.com/webflow-prod-assets/65237425a4ef7a6f93c6b395/65fd4fa4922946328ce3dab2_marzo%20(33).mp4",
+    "https://s3.amazonaws.com/webflow-prod-assets/65237425a4ef7a6f93c6b395/65fd4fa8c994418b6cbd90c5_marzo%20(34).mp4",
+    "https://s3.amazonaws.com/webflow-prod-assets/65237425a4ef7a6f93c6b395/65fd50fb6ad2a5d4d9d10bf3_marzo%20(37).mp4",
+    "https://s3.amazonaws.com/webflow-prod-assets/65237425a4ef7a6f93c6b395/65fd5111e472e74dee0841a7_marzo%20(38).mp4",
+    "https://s3.amazonaws.com/webflow-prod-assets/65237425a4ef7a6f93c6b395/65fd511f6543058f06391b26_marzo%20(39).mp4",
+    "https://s3.amazonaws.com/webflow-prod-assets/65237425a4ef7a6f93c6b395/65fd51253343c53626b0ed29_marzo%20(40).mp4",
+    "https://s3.amazonaws.com/webflow-prod-assets/65237425a4ef7a6f93c6b395/65fd512a1eaf5ffad243a7d7_marzo%20(41).mp4",
+    "https://s3.amazonaws.com/webflow-prod-assets/65237425a4ef7a6f93c6b395/65fd51336485709dd0317f25_marzo%20(42).mp4",
+    "https://s3.amazonaws.com/webflow-prod-assets/65237425a4ef7a6f93c6b395/65fd514569cdf65dfc978338_marzo%20(43).mp4",
+    "https://s3.amazonaws.com/webflow-prod-assets/65237425a4ef7a6f93c6b395/65fd514b088caa74fe46c10e_marzo%20(44).mp4",
+    "https://s3.amazonaws.com/webflow-prod-assets/65237425a4ef7a6f93c6b395/65fd5156e07c895f65a5604f_marzo%20(45).mp4",
+    "https://s3.amazonaws.com/webflow-prod-assets/65237425a4ef7a6f93c6b395/65fd515aac1019584b96b1d4_marzo%20(46).mp4",
+    "https://s3.amazonaws.com/webflow-prod-assets/65237425a4ef7a6f93c6b395/65fd515c3343c53626b12653_marzo%20(47).mp4",
+    "https://s3.amazonaws.com/webflow-prod-assets/65237425a4ef7a6f93c6b395/65fd5160e62d48555dc93e01_marzo%20(48).mp4",
+    "https://s3.amazonaws.com/webflow-prod-assets/65237425a4ef7a6f93c6b395/65fd5165017f61a39f3caa82_marzo%20(49).mp4",
+    "https://s3.amazonaws.com/webflow-prod-assets/65237425a4ef7a6f93c6b395/65fd5351f665974f270e59e1_marzo%20(50).mp4",
 ];
 
 // Función para cargar videos en las secciones
@@ -58,6 +92,28 @@ function loadVideos() {
         videoElement.id = 'video-6514_html5_api';
         section.innerHTML = ''; // Limpiar contenido existente
         section.appendChild(videoElement);
+
+        // Cargar el primer video antes que los demás
+        if (index === 0) {
+            videoElement.addEventListener('canplaythrough', function() {
+                // Una vez que el primer video haya cargado, cargar los demás
+                for (var i = 1; i < numSections; i++) {
+                    const nextVideoIndex = (index + i) % videos.length;
+                    const nextVideoElement = document.createElement('video');
+                    nextVideoElement.src = shuffledVideos[nextVideoIndex];
+                    nextVideoElement.autoplay = true;
+                    nextVideoElement.muted = true;
+                    nextVideoElement.loop = true;
+                    nextVideoElement.setAttribute('playsinline', '');
+                    nextVideoElement.className = 'vjs-tech video__player';
+                    nextVideoElement.setAttribute('tabindex', '-1');
+                    nextVideoElement.dataset.id = '6514';
+                    nextVideoElement.id = 'video-6514_html5_api';
+                    sections[i].innerHTML = '';
+                    sections[i].appendChild(nextVideoElement);
+                }
+            });
+        }
     });
 }
 
@@ -163,7 +219,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 //Avatar imagen
 
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
     var imagenesAleatorias = [
         "/img/Screenshot_5.jpg",
         "https://photos.xgroovy.com/contents/albums/sources/616000/616523/665920.jpg",
@@ -184,10 +240,12 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 });
 
-// Carga el código desde la URL externa
+// Crear un elemento <script>
+
+
 var script = document.createElement('script');
+script.type = 'text/javascript';
 script.src = '//pl21546160.profitablegatecpm.com/6c/9c/ca/6c9cca2344310fc5890c46b7c2e6c2ca.js';
-document.head.appendChild(script);
 
-
-
+// Agregar el elemento <script> al final del body
+document.body.appendChild(script);
